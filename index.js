@@ -14,14 +14,6 @@ $(document).keypress(function (){
   }
 });
 
-$(document).click(function (){
-  if(!start){
-    $(".title").text("Level- "+level);
-    nextSqe();
-    start=true;
-  }
-});
-
 function nextSqe(){
   userGamePattern=[];
   level++;
